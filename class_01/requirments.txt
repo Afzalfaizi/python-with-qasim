@@ -1,0 +1,4 @@
+mypy
+pandas
+jupyter
+numpy
