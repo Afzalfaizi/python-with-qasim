@@ -1,5 +1,14 @@
-# Dictionary, Set, Tuple
-# Dictionary
-# A dictionary is a collection of key-value pairs. It is mutable, meaning it can be changed
-# after it is created.
-# Dictionaries are defined using curly brackets {}
+from typing import Dict, Union, Optional
+
+key = Union[int, str] # Create Custom type
+value = Union[int, str, dict, set, tuple]
+
+data : Dict[key,value] = {
+    "name" : "Muhammad Afzal",
+    "age" : "26",
+    "city" : "Nankana Sahib",
+    "country" : "Pakistan",
+    "hobbies" : {"reading", "writing", "coding"},
+    "education" : "Masters in Computer Science"
+}
+print(data)
