@@ -1,4 +1,10 @@
+# Dictionaries in Python
+# A dictionary is a collection of key-value pairs. 
+# It is mutable, meaning it can be changed after it's created.
+# It is unordered, meaning the order of the key-value pairs is not guaranteed. 
+
 from typing import Dict, Union, Optional
+import pprint
 
 key = Union[int, str] # Create Custom type
 value = Union[int, str, dict, set, tuple]
@@ -11,4 +17,4 @@ data : Dict[key,value] = {
     "hobbies" : {"reading", "writing", "coding"},
     "education" : "Masters in Computer Science"
 }
-print(data)
+pprint.pprint(data)
