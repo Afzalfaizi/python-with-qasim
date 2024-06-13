@@ -18,3 +18,13 @@ data : Dict[key,value] = {
     "education" : "Masters in Computer Science"
 }
 pprint.pprint(data)
+
+car : Dict[key,value] = {
+    "brand" : "Toyota",
+    "model" : "Corolla",
+    "year" : 2015,
+    "color" : "Black",
+    "mileage" : 50000,
+    "features" : {"air_conditioner", "power_steering", "anti_lock_brakes"}
+}
+pprint.pprint(car["brand"])
