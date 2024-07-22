@@ -7,6 +7,10 @@ print(type(sys.argv))
 print(sys.argv)
 
 
+def myfun():
+    pass
+
+
 
 
 
