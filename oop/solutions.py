@@ -16,6 +16,18 @@ my_tesla = ElectricCar("Tesla", "Model S", "90Kw")
 print(my_tesla.display_details())  # Output: Tesla Model S
 
 
+class Student:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        print("Student created successfully")
+s1 = Student("Muhammad Afzal", 26 )
+print(s1.name)
+print(s1.age)
+
+
+
 # my_car = Car("Honda", "Civic")
 # print(my_car.brand)
 # print(my_car.model)
