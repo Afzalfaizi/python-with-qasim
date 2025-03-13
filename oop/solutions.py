@@ -22,7 +22,7 @@ class Student:
         self.name = name
         self.age = age
         print("Student created successfully")
-s1 = Student("Muhammad Afzal", 26 )
+s1 = Student("Muhammad Afzal", 27 )
 print(s1.name)
 print(s1.age)
 
