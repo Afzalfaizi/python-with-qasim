@@ -18,13 +18,15 @@ print(my_tesla.display_details())  # Output: Tesla Model S
 
 class Student:
     
-    def __init__(self, name, age):
+    def __init__(self, name, age, Fees):
         self.name = name
         self.age = age
+        self.Fees = Fees
         print("Student created successfully")
-s1 = Student("Muhammad Afzal", 27 )
+s1 = Student("Muhammad Afzal", 27, 1000)
 print(s1.name)
 print(s1.age)
+print(s1.Fees)
 
 
 
